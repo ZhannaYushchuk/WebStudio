@@ -476,4 +476,73 @@ a {
     background-color: #31d0aa;
 }
 
+.form {
+
+}
+
+.form-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.form-box {
+    display: flex;
+}
+
+.form-label {
+    display: flex;
+    gap: 24px;
+}
+
+.form-input {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+.form-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 8px 24px;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+}
+
+.form-button-frame {
+    margin-left: 16px;
+}
+
 /* #endregion footer */
+
+/* #region modal */
+
+
+/* #endregion modal */
